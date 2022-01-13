@@ -10,3 +10,68 @@ body {
 }
 
 /* Add styles here! */
+
+html {
+  --green: hsl(160deg, 100%, 30%);
+  --golden-lighter: hsl(45deg, 100%, 50%);
+  --golden-darker: hsl(45deg, 100%, 40%);
+  --grey-black: hsl(0deg, 0%, 0%);
+  --grey-vary-dark: hsl(0deg, 0%, 10%);
+  --grey-dark: hsl(0deg, 0%, 30%);
+  --grey-medium: hsl(0deg, 0%, 40%);
+  --grey-light: hsl(0deg, 0%, 60%);
+  --grey-white: hsl(0deg, 0%, 100%);
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+
+.max-width-wrapper {
+  max-width: 768px;
+  padding-right: 16px;
+  padding-left: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  padding-top: 64px;
+}
+
+.intro-chunk .title {
+  margin-bottom: 48px;
+}
+
+.intro-chunk p {
+  max-width: 400px;
+}
+
+.intro-chunk strong {
+  color: var(--green);
+}
+
+main {
+  margin-top: 64px;
+  border-top: 8px solid var(--grey-dark);
+  background-color: var(--grey-light);
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+.card {
+  border-bottom: 8px solid var(--grey-dark);
+  background-color: var(--grey-white);
+  margin: 0 -24px;
+  padding: 8px 24px;
+}
+
+.card .indented-heading {
+  background-color: var(--golden-lighter);
+  border-bottom: 8px solid var(--golden-darker);
+  margin: 0;
+  margin-left: -32px;
+  width: fit-content;
+  padding: 16px 32px;
+}
